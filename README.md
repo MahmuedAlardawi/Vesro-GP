@@ -10,7 +10,6 @@ VERSO is an innovative web-based platform that combines Artificial Intelligence 
 - **AI-Powered Arabic Poetry Generation**: Generate poetry based on user prompts with strict adherence to Arabic poetic metrics.
 - **Prosody Analysis**: Analyze poems to ensure they follow traditional poetic structures.
 - **Visual Representations**: Create unique artistic representations of poems through text-to-image AI.
-- **Optional Audiovisual Recitations**: Leverage deepfake technology to provide personalized recitations of generated poems.
 
 ---
 
