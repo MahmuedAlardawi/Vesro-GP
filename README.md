@@ -131,7 +131,7 @@ npm run test
 ---
 
 ## Contributors
-- Mahmoud Alardawi
+- Mahmued A. Alardawi
 - Thamer S. Almalki
 - Rawad Algamidi
   
