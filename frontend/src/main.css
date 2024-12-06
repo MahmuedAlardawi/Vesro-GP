@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #ffffff;
+}
+
+* {
+    font-family: "El Messiri", monospace;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+html, body {
+    background: url('@/assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;    color: var(--primary-color);
+    text-align: center;
+    scroll-behavior: smooth;
+    height: 100%; /* Allow the body to take the full height */
+    overflow: auto; /* Ensure the page is scrollable */
+}
