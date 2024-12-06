@@ -1,0 +1,93 @@
+{
+  "best_metric": 5.675402641296387,
+  "best_model_checkpoint": "/content/drive/My Drive/Colab Notebooks/Verso_GP/model/lora-4bit-silma-poetry/checkpoint-200",
+  "epoch": 4.98989898989899,
+  "eval_steps": 50,
+  "global_step": 245,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0101010101010102,
+      "grad_norm": 2.804142475128174,
+      "learning_rate": 4e-05,
+      "loss": 7.8712,
+      "step": 50
+    },
+    {
+      "epoch": 1.0101010101010102,
+      "eval_loss": 5.989419460296631,
+      "eval_runtime": 8.3447,
+      "eval_samples_per_second": 10.546,
+      "eval_steps_per_second": 1.318,
+      "step": 50
+    },
+    {
+      "epoch": 2.0303030303030303,
+      "grad_norm": 1.437762975692749,
+      "learning_rate": 2.9795918367346944e-05,
+      "loss": 5.7405,
+      "step": 100
+    },
+    {
+      "epoch": 2.0303030303030303,
+      "eval_loss": 5.736860275268555,
+      "eval_runtime": 8.3462,
+      "eval_samples_per_second": 10.544,
+      "eval_steps_per_second": 1.318,
+      "step": 100
+    },
+    {
+      "epoch": 3.0505050505050506,
+      "grad_norm": 2.4182260036468506,
+      "learning_rate": 1.9591836734693877e-05,
+      "loss": 5.6797,
+      "step": 150
+    },
+    {
+      "epoch": 3.0505050505050506,
+      "eval_loss": 5.68861198425293,
+      "eval_runtime": 8.3477,
+      "eval_samples_per_second": 10.542,
+      "eval_steps_per_second": 1.318,
+      "step": 150
+    },
+    {
+      "epoch": 4.070707070707071,
+      "grad_norm": 1.5039172172546387,
+      "learning_rate": 9.387755102040816e-06,
+      "loss": 5.6218,
+      "step": 200
+    },
+    {
+      "epoch": 4.070707070707071,
+      "eval_loss": 5.675402641296387,
+      "eval_runtime": 8.3502,
+      "eval_samples_per_second": 10.539,
+      "eval_steps_per_second": 1.317,
+      "step": 200
+    }
+  ],
+  "logging_steps": 50,
+  "max_steps": 245,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 50,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": true
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 1.0034976393265152e+17,
+  "train_batch_size": 2,
+  "trial_name": null,
+  "trial_params": null
+}

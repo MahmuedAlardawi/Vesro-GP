@@ -1,0 +1,19 @@
+
+Step	Training Loss	Validation Loss
+50	7.871200	5.989419
+100	5.740500	5.736860
+150	5.679700	5.688612
+200	5.621800	5.675403
+
+TrainOutput(
+global_step=245, 
+training_loss=1.0239289575693558, 
+metrics={
+	'train_runtime': 202.768, 
+	'train_samples_per_second': 19.53, 
+	'train_steps_per_second': 1.208, 
+	'total_flos': 1.0034976393265152e+17, 
+	'train_loss': 1.0239289575693558, 
+	'epoch': 4.98989898989899
+	}
+)
