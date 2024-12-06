@@ -114,9 +114,11 @@ npm run test
  - Loss of precision with 4-bit quantization for SILMA-9B.
  - Limited computational resources for training.
 
+
 2. Dataset Challenges:
  - Inconsistent data from sources like Diwan.net.
  - Limited availability of high-quality, labeled datasets.
+
    
 3. Integration Issues:
  - Compatibility issues between tools like Hugging Face, QLoRA, and Django.
@@ -132,6 +134,7 @@ npm run test
 - Mahmoud Alardawi
 - Thamer S. Almalki
 - Rawad Algamidi
+  
 Supervised by **Dr. Mohammed Dahab**
 
 ---
