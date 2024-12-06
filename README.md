@@ -14,6 +14,18 @@ VERSO is an innovative web-based platform that combines Artificial Intelligence 
 
 ---
 
+## Platform Demonstration
+A video showcasing the platform's functionality and features is available. Watch the video here:
+[VERSO Platform Demonstration](https://drive.google.com/drive/folders/1inscodaQr3BnO2pMziO6ZPm79E7PBIMS?usp=sharing)
+
+---
+
+## Dataset
+The project utilizes a custom Arabic poetry dataset for training and analysis. The dataset was compiled from a variety of sources and is carefully annotated for poetic structure and meter. You can find the dataset and related files here:
+[VERSO Dataset and Resources](https://drive.google.com/drive/folders/1inscodaQr3BnO2pMziO6ZPm79E7PBIMS?usp=sharing)
+
+---
+
 ## Tech Stack
 - **Frontend**: Vue.js
 - **Backend**: Django
@@ -30,99 +42,103 @@ VERSO is an innovative web-based platform that combines Artificial Intelligence 
 ```bash
 git clone https://github.com/your-repo/verso.git
 cd verso
-Install Dependencies
-Python Backend
-bash
-Copy code
+```
+
+## Install Dependencies
+
+### Python Backend
+```bash
 pip install -r requirements.txt
-Vue.js Frontend
-bash
-Copy code
+```
+
+### Vue.js Frontend
+```bash
 npm install
-Setup Environment
+```
+
+## Setup Environment
 Create a .env file in both the backend and frontend directories.
-Add the following environment variables:
-bash
-Copy code
+Add the following environment variables
+```bash
 DJANGO_SECRET_KEY=your-secret-key
 DATABASE_URL=your-database-url
-Usage
-Start the Backend
-bash
-Copy code
+```
+
+## Usage
+
+### Start the Backend
+```bash
 python manage.py runserver
-Start the Frontend
-bash
-Copy code
+```
+
+### Start the Frontend
+```bash
 npm run serve
-Access the Application
+```
+
+### Access the Application
 Visit the following URL in your browser:
+```bash
+[python manage.py runserver
+](http://localhost:8080)
+```
 
-text
-Copy code
-http://localhost:8080
-Testing
-Backend Testing
+## Testing
+
+### Backend Testing
 Run unit tests for the backend:
-
-bash
-Copy code
+```bash
 python manage.py test
-Frontend Testing
+```
+
+### Frontend Testing
 Run unit tests for the frontend:
-
-bash
-Copy code
+```bash
 npm run test
-Architecture
-Backend Server: Handles poetry generation, prosody analysis, and data processing.
-Frontend Interface: Provides an intuitive user interface for seamless interaction.
-Database: Stores poetry data, user-generated content, and visual artworks.
-Design
-Functional Requirements
-Generate Arabic poetry based on user input.
-Analyze poetry for adherence to traditional poetic structures.
-Transform poetry into artistic visuals.
-Provide optional audiovisual recitations.
-Non-Functional Requirements
-Performance: Support up to 1000 concurrent users with a response time of less than 3 seconds.
-Security: Implement secure user authentication and data encryption.
-Usability: Provide an intuitive interface with English and Arabic language support.
-Reliability: Achieve 99.5% uptime, excluding scheduled maintenance.
-Challenges and Solutions
-Challenges
-Quantization Impact on Model Quality:
+```
 
-Loss of precision with 4-bit quantization for SILMA-9B.
-Limited computational resources for training.
-Dataset Challenges:
+## Challenges and Solutions
 
-Inconsistent data from sources like Diwan.net.
-Limited availability of high-quality, labeled datasets.
-Integration Issues:
+### Challenges
+1. Quantization Impact on Model Quality:
+ - Loss of precision with 4-bit quantization for SILMA-9B.
+ - Limited computational resources for training.
 
-Compatibility issues between tools like Hugging Face, QLoRA, and Django.
-Solutions
-Used 8-bit quantization as an alternative for better precision.
-Developed preprocessing scripts for cleaning and aligning poetry data.
-Leveraged modular architecture for smooth integration between components.
-Future Enhancements
-Expand support for other languages and poetic forms.
-Add collaborative poetry creation features.
-Integrate 3D holographic representations for immersive experiences.
-Contributors
-Thamer S. Almalki
-Mahmoud Alardawi
-Rawad Algamidi
+2.Dataset Challenges:
+ - Inconsistent data from sources like Diwan.net.
+ - Limited availability of high-quality, labeled datasets.
+ - 
+3. Integration Issues:
+ - Compatibility issues between tools like Hugging Face, QLoRA, and Django.
+ - 
+### Solutions
+- Used 8-bit quantization as an alternative for better precision.
+- Developed preprocessing scripts for cleaning and aligning poetry data.
+- Leveraged modular architecture for smooth integration between components.
+
+## Contributors
+- Mahmoud Alardawi
+- Thamer S. Almalki
+- Rawad Algamidi
 Supervised by Dr. Mohammed Dahab
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
-References
-DeepLearning.AI - Natural Language Processing
-GitHub - How AI Code Generation Works
-GeeksforGeeks - LSTM-Based Poetry Generation
-OpenAI - Text Generation
-Deepfake Web Guide
-TechTarget - Deepfake Overview
+Thank you for exploring VERSO!
+
+### Additions:
+1. **Platform Demonstration** [VERSO Platform Demonstration](https://drive.google.com/drive/folders/1inscodaQr3BnO2pMziO6ZPm79E7PBIMS?usp=sharing)
+2. **Dataset** [VERSO Dataset and Resources](https://drive.google.com/drive/folders/1inscodaQr3BnO2pMziO6ZPm79E7PBIMS?usp=sharing)
+
+
+
+
+
+
+
+
+
+
+
+
