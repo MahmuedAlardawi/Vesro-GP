@@ -2,7 +2,7 @@
  King AbdulAziz Universality - Graduation Project
 
 ## Overview
-VERSO is an innovative web-based platform that combines Artificial Intelligence with the rich tradition of Arabic poetry. Designed to both preserve and redefine the experience of Arabic literature, VERSO generates poetry that adheres to the traditional Arabic metrics (Al-Arood and Al-Bihar) and transforms these poetic compositions into bespoke visual art. The project was developed as part of the CPCS-498 course at King Abdulaziz University.
+VERSO is an innovative web-based platform that combines Artificial Intelligence with the rich tradition of Arabic poetry. Designed to both preserve and redefine the experience of Arabic literature, VERSO generates poetry that adheres to the traditional Arabic metrics (Al-Arood and Al-Bihar) and transforms these poetic compositions into bespoke visual art. The project was developed as the Graduation Project at King Abdulaziz University.
 
 ---
 
