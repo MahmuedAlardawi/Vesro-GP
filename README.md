@@ -135,6 +135,7 @@ npm run test
 - Rawad Algamidi
   
 Supervised by **Dr. Mohammed Dahab**
+
 Linguistic and prosody consultant: **Dr. Rania Alardawe**
 
 ---
